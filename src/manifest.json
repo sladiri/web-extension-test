@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "MyExtension",
+  "version": "0.0.1",
+  "permissions": ["tabs"],
+  "optional_permissions": ["history"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.svg",
+    "default_title": "Opens MyExtension"
+  },
+  "icons": {
+    "48": "icon.svg"
+  }
+}
